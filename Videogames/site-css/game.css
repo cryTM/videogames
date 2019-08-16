@@ -1,0 +1,95 @@
+.game-area {
+  margin-left:150px;
+}
+
+.game-area p {
+  text-align: center;
+}
+
+button.mode {
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.mode:hover { background-color: rgb(94, 94, 94);}
+
+.scoreboard {
+  float: left;
+  width: 400px;
+}
+
+.tabcontent {
+  padding-top: 50px;
+}
+
+#HighScores {
+  font-weight: bolder;
+}
+
+canvas#game {
+  border: 1px solid white;
+}
+
+#AI {
+  display: none;
+}
+
+#PVP {
+  display: none;
+}
+
+#pongScore {
+  font-size: 30px;
+  font-family: "Courier New";
+	color: #ffffff;
+}
+
+#pvpPongScore1 {
+  float: left;
+  padding-left: 150px;
+  font-size: 30px;
+  font-family: "Courier New";
+	color: #ffffff;
+}
+
+#pvpPongScore2 {
+  float: right;
+  padding-right: 150px;
+  font-size: 30px;
+  font-family: "Courier New";
+	color: #ffffff;
+}
+
+#snakeScore {
+ padding-right: 300px;
+}
+
+#tetrisScore {
+  padding-top: 20px;
+}
+
+.stopANDrestart {
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.stopANDrestart:active {
+  background-color: #666;
+  transform: translateY(4px);
+}
+
+#warning {
+  font-size: 10px;
+}

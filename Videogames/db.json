@@ -1,0 +1,10 @@
+{
+  "scores": [
+    {
+      "id": 1,
+      "game": "snake",
+      "name": "test",
+      "score": 2
+    }
+  ]
+}
